@@ -161,6 +161,7 @@ body.fixed {
   max-height: 928px;
   min-height: auto;
   background-color: #afdecd;
+  padding-bottom: 20px;
 }
 
 .header-container {
