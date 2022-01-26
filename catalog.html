@@ -4,11 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Velmix</title>
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-    />
-    <link rel="stylesheet" href="css/style_index.css" />
+    <link rel="stylesheet" href="css/style_catalog.css" />
     <link rel="shortcut icon" href="./img/favicon.png" type="image/x-icon" />
   </head>
   <body>
@@ -113,27 +109,45 @@
 </header>
 
     <main class="main">
-      <div class="main-container">
-        <div class="main__header">
-          <p class="main__title">Хиты продаж</p>
-          <a href="#" class="main__button"
-            ><span class="main__button__text">Перейти в каталог</span
-            ><img
-              alt="arrow-ico"
-              src="./img/arrow.svg"
-              style="transform: rotate(180deg)"
-              width="46"
-              height="23"
-              class="arrow-black" />
-            <img
-              class="arrow-white"
-              src="./img/arrow-white.svg"
-              width="46"
-              height="23"
-              alt="arrow-ico"
-          /></a>
+      <div class="main__content">
+        <div class="main__top">
+          <p class="main__title">Каталог</p>
+          <div class="main__filter">
+            <button class="main__filter__btn">
+              <div class="main__filter-container">
+                <span class="main__filter__btn__text">Фильтры</span>
+                <img
+                  src="./img/filter-ico.svg"
+                  alt="filter-ico"
+                  width="27"
+                  height="27"
+                />
+              </div>
+            </button>
+            <ul class="main__filter__list hidden">
+              <li class="main__filter__item">
+                <input type="checkbox" name="filter1" id="filter-1" />
+                <span>Фильтр 1</span>
+              </li>
+            </ul>
+          </div>
+          <div class="main__search">
+            <div class="main__search-container">
+              <input
+                type="search"
+                name="search"
+                id="search"
+                placeholder="Поиск"
+              />
+              <img src="./img/magnifier.svg" width="25" height="25" />
+            </div>
+          </div>
+          <div class="main__sort">
+            <span class="main__sort__text">Сортировать&nbsp;по:</span>
+            <a href="#" class="main__sort__link">Популярности</a>
+          </div>
         </div>
-        <div class="main__content" id="best-selling">
+        <div class="main__catalog">
           <div class="main__block">
   <img
     src="./img/example2.png"
@@ -156,7 +170,7 @@
   </ul>
   <a href="#" class="main__block__button">Смотреть</a>
 </div>
- <div class="main__block">
+<div class="main__block">
   <img
     src="./img/example2.png"
     alt="photo"
@@ -178,8 +192,7 @@
   </ul>
   <a href="#" class="main__block__button">Смотреть</a>
 </div>
-
-          <div class="main__block">
+<div class="main__block">
   <img
     src="./img/example2.png"
     alt="photo"
@@ -201,7 +214,95 @@
   </ul>
   <a href="#" class="main__block__button">Смотреть</a>
 </div>
- <div class="main__block">
+<div class="main__block">
+  <img
+    src="./img/example2.png"
+    alt="photo"
+    width="280"
+    height="175"
+    class="main__block__photo"
+  />
+  <p class="main__block__title">Mountain bike</p>
+  <ul class="main__block__list">
+    <li class="main__block__item">
+      <span class="main__block__text">Металлическая рама</span>
+    </li>
+    <li class="main__block__item">
+      <span class="main__block__text">Гидравлические тормоза</span>
+    </li>
+    <li class="main__block__item">
+      <span class="main__block__text">7 передач скоростей</span>
+    </li>
+  </ul>
+  <a href="#" class="main__block__button">Смотреть</a>
+</div>
+<div class="main__block">
+  <img
+    src="./img/example2.png"
+    alt="photo"
+    width="280"
+    height="175"
+    class="main__block__photo"
+  />
+  <p class="main__block__title">Mountain bike</p>
+  <ul class="main__block__list">
+    <li class="main__block__item">
+      <span class="main__block__text">Металлическая рама</span>
+    </li>
+    <li class="main__block__item">
+      <span class="main__block__text">Гидравлические тормоза</span>
+    </li>
+    <li class="main__block__item">
+      <span class="main__block__text">7 передач скоростей</span>
+    </li>
+  </ul>
+  <a href="#" class="main__block__button">Смотреть</a>
+</div>
+<div class="main__block">
+  <img
+    src="./img/example2.png"
+    alt="photo"
+    width="280"
+    height="175"
+    class="main__block__photo"
+  />
+  <p class="main__block__title">Mountain bike</p>
+  <ul class="main__block__list">
+    <li class="main__block__item">
+      <span class="main__block__text">Металлическая рама</span>
+    </li>
+    <li class="main__block__item">
+      <span class="main__block__text">Гидравлические тормоза</span>
+    </li>
+    <li class="main__block__item">
+      <span class="main__block__text">7 передач скоростей</span>
+    </li>
+  </ul>
+  <a href="#" class="main__block__button">Смотреть</a>
+</div>
+<div class="main__block">
+  <img
+    src="./img/example2.png"
+    alt="photo"
+    width="280"
+    height="175"
+    class="main__block__photo"
+  />
+  <p class="main__block__title">Mountain bike</p>
+  <ul class="main__block__list">
+    <li class="main__block__item">
+      <span class="main__block__text">Металлическая рама</span>
+    </li>
+    <li class="main__block__item">
+      <span class="main__block__text">Гидравлические тормоза</span>
+    </li>
+    <li class="main__block__item">
+      <span class="main__block__text">7 передач скоростей</span>
+    </li>
+  </ul>
+  <a href="#" class="main__block__button">Смотреть</a>
+</div>
+<div class="main__block">
   <img
     src="./img/example2.png"
     alt="photo"
@@ -287,8 +388,6 @@
 </footer>
 
 
-    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script src="./js/headerMenu.js"></script>
-    <script src="./js/script.js"></script>
   </body>
 </html>
